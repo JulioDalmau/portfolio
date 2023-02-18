@@ -1,18 +1,22 @@
+import starbust from '../assets/starburst-tmdb.png'
+import tpm from '../assets/theperfectmentor.png'
+import portfolio from '../assets/porfolio.png'
+
 const data = {
   es: {
-    navbar: ["Sobre mí", "Proyectos", "Technologías", "Contacto"],
+    navbar: ["Sobre mí", "Proyectos", "Tecnologías", "Contacto"],
     init: [
       "Hola, mi nombre es",
-      "Julio Dalmau.",
-      "Soy",
+      "Julio Dalmau",
+      "Soy ",
       [
-        "Full Stack Developer.",
-        "MERN Developer.",
-        "PERN Developer.",
-        "Node.js Developer.",
-        "React.js Developer.",
+        "Full Stack",
+        "MERN",
+        "PERN",
+        "Node.js",
+        "React.js",
       ],
-      'Soy un desarrollador web, me gusta crear aplicaciones, trabajar en equipo y experimentar con nuevas tecnologías '
+      'Soy desarrollador web, me gusta crear aplicaciones, trabajar en equipo y experimentar con nuevas tecnologías'
     ],
     aboutMe: [
         'Desde niño siempre fui un apasionado por la tecnología. Durante 12 años trabajé en el mundo IT como soporte técnico y coordinador de soporte técnico en grandes empresas, esto me brindó experiencia de trabajo en equipo, en condiciones de gran variabilidad tecnológica y de alta demanda de solicitudes.',
@@ -23,25 +27,35 @@ const data = {
         title: 'Proyectos',
         projects: [
             {
-                name: '',
-                path: '',
-                linkGithub: '',
+                name: 'Starburst TMDB',
+                path: starbust,
+                linkGithub: 'https://github.com/JulioDalmau/TMDB',
                 linkWeb: '',
                 description: '',
-                skills: [''],
+                skills: ['Node.js', 'React.js', 'Firebase', 'TailwindCSS'],
 
-            }
+            },
+            {
+                name: 'The Perfect Mentor',
+                path: tpm,
+                linkGithub: 'https://github.com/JulioDalmau/the_perfect_mentor',
+                linkWeb: '',
+                description: '',
+                skills: ['Node.js', 'React.js', 'MongoDB', 'Express.js', 'TailwindCSS'],
+
+            },
+            {
+                name: 'Portfolio',
+                path: portfolio,
+                linkGithub: 'https://github.com/JulioDalmau/portfolio',
+                linkWeb: '',
+                description: '',
+                skills: ['Node.js', 'React.js', 'TailwindCSS'],
+
+            },
         ]
     },
-    skills: {
-        title: 'Tecnologías',
-        skills: ['']
-    },
-    contact: {
-        title: 'Contacto',
-        button: 'Contactame'
-    },
-    footer: {
+    Footer: {
         copyright: "Sitio desarrollado por Julio Dalmau 2023."
     }
   },
