@@ -13,12 +13,12 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-[#4429F2] font-montserrat">
           {data.es.init[1]}
         </h1>
-        <h2 className="text-4xl sm:7xl font-bold text-[#7D79F2] font-roboto">
+        <h2 className="text-[28px] md:text-3xl font-bold text-[#7D79F2] font-roboto">
           {data.es.init[2]}
           <Typed
             strings={data.es.init[3]}
             typeSpeed={150}
-            backSpeed={60}
+            backSpeed={50}
             loop
             showCursor={false}
             className="text-[#5550F2] font-montserrat font-bold"

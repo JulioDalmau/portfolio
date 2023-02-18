@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div name="projects" className="w-full md:h-screen text-[#F2F2F2] bg-[#0D0D0D] max-sm:pb-28 max-sm:pt-28">
       <div className="max-w-[1000px] mx-auto px-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-9 my-5">
           <p className="text-4xl font-bold inline border-b-4 text-[#F2F2F2] border-[#5550F2] font-montserrat">{data.es.Projects.title}</p>  
         </div>
 
@@ -20,7 +20,7 @@ const Projects = () => {
                 {projects.map((project, index) => (
           <div key={index} 
           style={{backgroundImage: `url(${project.path})`}}
-          className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-works font-montserrat">
+          className="shadow-md shadow-[#7D79F2] group container rounded-md flex justify-center items-center text-center  mx-auto content-works font-montserrat">
 
             {/* hover */}
             <div className="opacity-0 group-hover:opacity-100">
