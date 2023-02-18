@@ -7,10 +7,10 @@ const Projects = () => {
     const {projects} = data.es.Projects
     
   return (
-    <div name="projects" className="w-full md:h-screen text-[#F2F2F2] bg-[#0A0C0D] max-sm:pb-28 max-sm:pt-28">
+    <div name="projects" className="w-full md:h-screen text-[#F2F2F2] bg-[#0D0D0D] max-sm:pb-28 max-sm:pt-28">
       <div className="max-w-[1000px] mx-auto px-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-[#F2F2F2] border-[#115959] font-montserrat">{data.es.Projects.title}</p>  
+          <p className="text-4xl font-bold inline border-b-4 text-[#F2F2F2] border-[#5550F2] font-montserrat">{data.es.Projects.title}</p>  
         </div>
 
       {/* Container */}

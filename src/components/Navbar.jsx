@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import data from "../data/data";
-import logo from "../assets/JD.svg";
+import logo from "../assets/jdwhite.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-scroll";
@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNavMobile(!navMobile);
   const mobileActive = !navMobile
     ? "hidden"
-    : "absolute top-0 left-0 w-full h-screen bg-[#115959] flex flex-col justify-center items-center";
+    : "absolute top-0 left-0 w-full h-screen bg-[#0D0D0D] flex flex-col justify-center items-center";
   const NavOpen = !navMobile ? (
     <GiHamburgerMenu size={25} cursor="pointer" />
   ) : (
@@ -19,11 +19,11 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full fixed top-0 bg-[#115959] text-[#F2F2F2]">
+      <div className="w-full fixed top-0 bg-[#0D0D0D] text-[#F2F2F2]">
         <div className="container mx-auto px-5 py-5 flex justify-between">
           
-            <Link className="flex items-center gap-2 " to="home" smooth={true} duration={600}>
-              <img src={logo} alt="logo" width={30}></img>
+            <Link className="flex items-center gap-2 cursor-pointer " to="home" smooth={true} duration={600}>
+              <img src={logo} alt="logo" width={30} ></img>
               <span
                 className="hidden md:flex space-y-1 text-bla font-extrabold font-montserrat">
                 Julio Dalmau
