@@ -20,7 +20,7 @@ const data = {
     ],
     aboutMe: [
         'Desde niño siempre fui un apasionado por la tecnología. Durante 12 años trabajé en el mundo IT como soporte técnico y coordinador de soporte técnico en grandes empresas, esto me brindó experiencia de trabajo en equipo, en condiciones de gran variabilidad tecnológica y de alta demanda de solicitudes.',
-        'Durante el ultimo año tomé una nueva dirección laboral orientada al desarrollo web. Para ello, completé un Bootcamp el cual me fortaleció mis habilidades técnicas y blandas.',
+        'Durante el ultimo año tomé una nueva dirección laboral orientada al desarrollo web. Para ello, completé un Bootcamp el cual fortaleció mis habilidades técnicas y blandas.',
         'Descargar CV',
     ],
     Projects: {
