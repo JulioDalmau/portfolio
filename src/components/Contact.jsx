@@ -1,10 +1,19 @@
-import React from 'react'
+import React, {useEffect} from "react";
 import gmail from '../assets/socialMedia/gmail.png';
 import wpp from '../assets/socialMedia/wpp.png';
 import github from '../assets/socialMedia/github.png';
 import linkedin from '../assets/socialMedia/linkedin.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+
+    useEffect(() => {
+        AOS.init({
+          duration: 2200,
+        });
+      }, [])
+
   return (
     <div name="contact" className="w-full h-screen bg-[#0D0D0D] text-[#F2F2F2] max-sm:pb-24">
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -13,7 +22,7 @@ const Contact = () => {
             Contacto
           </p>
         </div>
-            <div className='w-full grid grid-cols-4 gap-5 mt-28 pt-8'>
+            <div className='w-full grid grid-cols-4 gap-5 mt-28 pt-8' data-aos="slide-up">
                
 
                 <a

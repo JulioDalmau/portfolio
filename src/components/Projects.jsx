@@ -1,10 +1,18 @@
-import React from "react";
+import React, {useEffect} from "react";
 import data from "../data/data";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Projects = () => {
 
-    const {projects} = data.es.Projects
+  const {projects} = data.es.Projects
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+    });
+  }, [])
     
   return (
     <div name="projects" className="w-full md:h-screen text-[#F2F2F2] bg-[#0D0D0D] max-sm:pb-28 max-sm:pt-28">
@@ -20,7 +28,9 @@ const Projects = () => {
                 {projects.map((project, index) => (
           <div key={index} 
           style={{backgroundImage: `url(${project.path})`}}
-          className="shadow-md shadow-[#7D79F2] group container rounded-md flex justify-center items-center text-center  mx-auto content-works font-montserrat">
+          className="shadow-md shadow-[#7D79F2] group container rounded-md flex justify-center items-center text-center  mx-auto content-works font-montserrat"
+          data-aos="zoom-in"
+          >
 
             {/* hover */}
             <div className="opacity-0 group-hover:opacity-100">
