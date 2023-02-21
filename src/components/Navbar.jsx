@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full fixed top-0 bg-[#0D0D0D] text-[#F2F2F2]">
+      <div className="z-20 w-full fixed top-0 bg-[#0D0D0D] text-[#F2F2F2]">
         <div className="container mx-auto px-5 py-5 flex justify-between">
           
             <Link className="flex items-center gap-2 cursor-pointer " to="home" smooth={true} duration={600}>
