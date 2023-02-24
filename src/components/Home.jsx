@@ -36,7 +36,7 @@ const Home = () => {
             className="text-[#F2F2F2] font-semibold py-3 px-3 border-2 hover:bg-[#4429F2] hover:border-[#4429F2] hover:text-[#0A0C0D] hover:font-semibold cursor-pointer"
             to="projects"
             smooth={true}
-            duration={600}
+            duration={1200}
           >
             Mirá mis proyectos
           </Link>
