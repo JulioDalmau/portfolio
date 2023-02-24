@@ -21,36 +21,58 @@ const Navbar = () => {
     <>
       <div className="z-20 w-full fixed top-0 bg-[#0D0D0D] text-[#F2F2F2]">
         <div className="container mx-auto px-5 py-5 flex justify-between">
-          
-            <Link className="flex items-center gap-2 cursor-pointer " to="home" smooth={true} duration={1000}>
-              <img src={logo} alt="logo" width={30} ></img>
-              <span
-                className="hidden md:flex space-y-1 text-bla font-extrabold font-montserrat">
-                Julio Dalmau
-              </span>
-            </Link>
-         
+          <Link
+            className="flex items-center gap-2 cursor-pointer "
+            to="home"
+            smooth={true}
+            duration={1000}
+          >
+            <img src={logo} alt="logo" width={30}></img>
+            <span className="hidden md:flex space-y-1 text-bla font-extrabold font-montserrat">
+              Julio Dalmau
+            </span>
+          </Link>
 
           {/* Desktop menu */}
           <div>
             <ul className="hidden md:flex space-x-7 text-[#E4EAF2] font-montserrat font-bold mr-10">
               <li>
-                <Link activeClass="active" to="about" smooth={true} duration={1200}>
+                <Link
+                  activeClass="active"
+                  to="about"
+                  smooth={true}
+                  duration={1200}
+                >
                   {data.es.navbar[0]}
                 </Link>
               </li>
               <li>
-                <Link activeClass="active" to="projects" smooth={true} duration={800}>
+                <Link
+                  activeClass="active"
+                  to="projects"
+                  smooth={true}
+                  duration={800}
+                >
                   {data.es.navbar[1]}
                 </Link>
               </li>
               <li>
-                <Link activeClass="active" to="skills" smooth={true} duration={800}>
+                <Link
+                  activeClass="active"
+                  to="skills"
+                  smooth={true}
+                  duration={800}
+                >
                   {data.es.navbar[2]}
                 </Link>
               </li>
               <li>
-                <Link activeClass="active" to="contact" smooth={true} duration={1200}>
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  smooth={true}
+                  duration={1200}
+                >
                   {data.es.navbar[3]}
                 </Link>
               </li>
@@ -61,6 +83,7 @@ const Navbar = () => {
           <ul className={mobileActive}>
             <li className="py-5 text-2xl">
               <Link
+                activeClass="active"
                 onClick={handleClick}
                 to="about"
                 smooth={true}
@@ -71,6 +94,7 @@ const Navbar = () => {
             </li>
             <li className="py-5 text-2xl">
               <Link
+                activeClass="active"
                 onClick={handleClick}
                 to="projects"
                 smooth={true}
@@ -81,7 +105,7 @@ const Navbar = () => {
             </li>
             <li className="py-5 text-2xl">
               <Link
-              activeClass="active"
+                activeClass="active"
                 onClick={handleClick}
                 to="skills"
                 smooth={true}
@@ -92,7 +116,7 @@ const Navbar = () => {
             </li>
             <li className="py-5 text-2xl">
               <Link
-              activeClass="active"
+                activeClass="active"
                 onClick={handleClick}
                 to="contact"
                 smooth={true}
