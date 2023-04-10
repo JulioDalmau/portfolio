@@ -16,7 +16,7 @@ const data = {
         "Node.js",
         "React.js",
       ],
-      'Soy desarrollador web, me gusta crear aplicaciones, trabajar en equipo y experimentar con nuevas tecnologías'
+      'Soy desarrollador web, me gusta crear aplicaciones, trabajar en equipo y experimentar con nuevas tecnologías.'
     ],
     aboutMe: [
         'Desde niño siempre fui un apasionado por la tecnología. Durante 12 años trabajé en el mundo IT como soporte técnico y coordinador de soporte técnico en grandes empresas, esto me brindó experiencia de trabajo en equipo, en condiciones de gran variabilidad tecnológica y de alta demanda de solicitudes.',
